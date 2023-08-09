@@ -1,0 +1,12 @@
+.l-header{
+  text-align: right;
+  padding: 1rem 1.2rem;
+  .change-mode{
+    transform: rotate(360deg);
+    transition: 1s linear;
+    &_return{
+      transition: 1s linear;
+      transform: rotate(0deg);
+    }
+  }
+}
